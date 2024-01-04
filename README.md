@@ -1,14 +1,14 @@
-# Tutorial de Oracle sql Developer Datamodeler
-## Escrito por Juan David Bolaños, revisado por Angela Villota Gómez.
+# Base de Datos II 
+## Tutorial para Oracle SQL Developer Datamodeler
 
 ### Introducción
 
-Este tutorial tiene como objetivo permitir a los estudiantes del curso Modelado de Sistemas de Información familiarizarse con la herramienta Oracle sql Developer Datamodeler, una herramienta que asiste el diseño lógico de una base de datos (i.e., creación de modelo conceptual y el esquema de la base de datos)
+Este tutorial tiene como objetivo permitir a los estudiantes del ITS-Japon de la materia de Base de Datos II familiarizarse con la herramienta Oracle sql Developer Datamodeler, una herramienta que asiste el diseño lógico de una base de datos (i.e., creación de modelo conceptual y el esquema de la base de datos)
 
 Las instrucciones de este tutorial se explicarán a través del diseño paso a paso de un ejemplo básico mientras se explican cada uno de los conceptos y componentes utilizados.
 Al finalizar la guía, se espera que los estudiantes se encuentren en la capacidad de (1) iniciar y persistir un proyecto con la herramienta; (2) diseñar un modelo Entidad-Relación entendiendo cada elemento empleado, transformar el modelo anterior a un modelo Relacional y generar un script DDL para la creación de una base de datos.
 
-Esta guía permite que el estudiante represente usando la notación pata de gallina,  un modelo E/R originalmente especificado en la notación propuesta por Peter Chen.  Para ello, se irán desarrollando cada uno de los elementos del modelo lógico de Oracle mientras se explican los conceptos necesarios y cómo se relacionan con cada uno de los elementos de la notación de Chen.
+Esta guía permite que el estudiante represente usando la notación pata de gallina,  un modelo E/R originalmente especificado en la notación propuesta por Peter Chen.  Para ello, se irán desarrollando cada uno de los elementos del modelo lógico de Oracle o cualquier otro Motor de Base de Datos Relacional,  mientras se explican los conceptos necesarios y cómo se relacionan con cada uno de los elementos de la notación de Chen.
 
 > Como caso práctico, se seguirá paso a paso el diseño lógico de una base de datos de un instituto que desea almacenar la información de sus estudiantes y de sus materias matriculadas en un solo periodo académico, así como la información de los profesores y de las materias que estos dictan.
 El modelo Entidad-Relación (E/R) completo que da solución al anterior caso es el que se ilustra en la siguiente figura. 
@@ -20,8 +20,8 @@ El modelo Entidad-Relación (E/R) completo que da solución al anterior caso es 
 
 1. **Instalación**
    
-    La herramienta Datamodeler 19.4 con su respectivo JDK se puede descargar gratuitamente desde [*oracle.com*](https://www.oracle.com/tools/downloads/sql-data-modeler-downloads.html). 
-    La descarga requiere la creación de una cuenta Oracle, una vez se crea esta cuenta se inicia la descarga de una carpeta comprimida donde se encuentra el ejecutable de la aplicación, este es el archivo *datamodeler.exe*
+    La herramienta Datamodeler 23.1.0.* (hasta la fecha enero 2024) con su respectivo JDK se puede descargar gratuitamente desde [*oracle.com*](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/). 
+    La descarga requiere la creación de una cuenta Oracle, una vez se crea esta cuenta se inicia la descarga de una carpeta comprimida donde se encuentra el ejecutable de la aplicación, este es el archivo *datamodeler-23.1.0.087.0806-x64*
    
 2. **Iniciar un proyecto**
    
